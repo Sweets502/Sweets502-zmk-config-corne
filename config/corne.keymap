@@ -11,7 +11,7 @@
 &led_strip {
   chain-length = <27>; // 0 backlight + 27 underglow
 };
-
+&studio_unlock
 / {
         keymap {
                 compatible = "zmk,keymap";
