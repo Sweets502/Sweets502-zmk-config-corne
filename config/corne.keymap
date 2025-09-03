@@ -13,11 +13,6 @@
     chain-length = <27>; // 0 backlight + 27 underglow
 };
 
-&mt {
-    tapping-term-ms = <200>; // This is the value already set by default
-    flavor = "tap-preferred";
-};
-
 / {
     combos { compatible = "zmk,combos"; };
 
@@ -91,7 +86,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        LAYER_5 {
+        TOP_LAYER {
             if-layers = <1 2>;
             then-layer = <3>;
         };
